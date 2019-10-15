@@ -5,15 +5,15 @@ These data was acquired at https://d396qusza40orc.cloudfront.net/getdata%2Fproje
 
 The following files were used in this project:
 
-1) Input files:
+1. Input files:
 
-1.1) From directory "UCI HAR Dataset":
+1.1. From directory "UCI HAR Dataset":
 
 	"features.txt";
 	   
 	"activity_labels.txt".
 	   
-1.2) From directory "train":
+1.2. From directory "train":
 
    	"X_train.txt";
 	
@@ -21,7 +21,7 @@ The following files were used in this project:
 	
 	"subject_train.txt".
     
-1.3) From directory "test":
+1.3. From directory "test":
 
   	"X_test.txt";
 	
@@ -29,14 +29,11 @@ The following files were used in this project:
 	
 	"subject_test.txt".
 	  
-2) Script File:
+2. Script File:
 
 		run_analysis.R;
 		Note: Before running this script make sure that the input files are available in their respective directories.
 	 
-3) Output file:
+3. Output file:
 
 		FeaturesSummary.txt.
-
-
-
