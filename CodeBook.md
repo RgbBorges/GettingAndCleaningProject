@@ -30,22 +30,37 @@ From directory "test":
 FUNCTIONS AND VARIABLES
 ------------------------
 
-getDataSet Function: 
+getDataSet Function:
+
 	parameters:
+	
 		expFile -> experiment file (X_train or X_test);
+		
 		actFile -> activity file (y_train or y_test);
+		
 		subFile -> subject file (subject_train or subject_test).
+		
     return:
+    
 	     Data frame for "train" or "test";
+	     
 
 dfTrain: data frame with train´s data;
+
 dfTest: data frame with test´s data;
+
 dfTrain_Test: data frame resulting of dfTrain and dfTest merging;
+
 dfActLabels: data frame with activities labels;
+
 dfMeanStdFeatures: data frame (wide-format) with the measurements on the mean and standard deviation for each measurement;
+
 dfMeanStdFeaturesTidy: tidy data frame with the measurements on the mean and standard deviation for each measurement;
+
 tblFeaturesMeans: tibble data frame for store dfMeanStdFeaturesTidy group by SubjectNumber anda Activity Description;
+
 dfFeaturesSummary: data set with the average of each variable for each activity and each subject.
+
 
 TRANFORMATIONS or WORKS
 ------------------------
