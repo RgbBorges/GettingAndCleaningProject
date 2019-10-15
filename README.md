@@ -35,6 +35,20 @@ The following files were used in this project:
 2) Script File: 
 
          run_analysis.R;
+	 Before execute these script, the following variables must be setted :
+
+		#work directory
+          	sWorkDir <- ".\\UCI HAR Dataset\\"
+
+		# train directory
+		expTrain <- "train\\X_train.txt"
+		actTrain <- "train\\y_train.txt"
+		subTrain <- "train\\subject_train.txt"
+
+		# test directory:
+		expTest <- "test\\X_test.txt"
+		actTest <- "test\\y_test.txt"
+		subTest <- "test\\subject_test.txt"
 
 3) Output file:
 
