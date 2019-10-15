@@ -31,13 +31,12 @@ The following files were used in this project:
 	  
 2) Script File:
 
-	run_analysis.R;
-	
-	Before running this script make sure that the input files are available in their respective directories.
+		run_analysis.R;
+		Before running this script make sure that the input files are available in their respective directories.
 	 
 3) Output file:
 
-	FeaturesSummary.txt.
+		FeaturesSummary.txt.
 
 
 
