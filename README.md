@@ -1,7 +1,7 @@
 # Getting And Cleaning Data Course Project
 The project objective was analyse data collected from the accelerometers from the Samsung Galaxy S smartphone.
 
-These data was aquired from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+These data was acquired at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
 The following files were used in this project:
 
@@ -29,14 +29,15 @@ The following files were used in this project:
 	
 	"subject_test.txt".
 	  
-2) Script File: 
+2) Script File:
 
-         run_analysis.R;
-	 Before running this script make sure that the input files are available in their respective directories.
+	run_analysis.R;
+	
+	Before running this script make sure that the input files are available in their respective directories.
 	 
 3) Output file:
 
-         FeaturesSummary.txt.
+	FeaturesSummary.txt.
 
 
 
